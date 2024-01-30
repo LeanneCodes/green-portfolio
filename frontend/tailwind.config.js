@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: ["./src/**/*.{html,js,jsx}", "./src/App.jsx"],
   theme: {
     screens: {
@@ -25,5 +25,4 @@ export default {
     },
   },
   plugins: [],
-}
-
+};

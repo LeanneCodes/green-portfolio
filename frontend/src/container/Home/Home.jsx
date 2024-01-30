@@ -19,13 +19,12 @@ const Home = () => {
   }, []);
 
   return (
-    <div className='Home-container'>
-      {/* Use curly braces to embed dynamic content */}
-      <p id="first">{firstContent}</p>
-      <p id="second">{secondContent}</p>
-      <p id="name">{nameContent}</p>
-      <p id="third">{thirdContent}</p>
-      <p id="fourth">{fourthContent}</p>
+    <div className='Home-container h-full flex flex-col justify-center items-center overflow-hidden'>
+      <p id="first" className='text-green font-header home-text'>{firstContent}</p>
+      <p id="second" className='text-green font-header home-text'>{secondContent}</p>
+      <p id="name" className='text-mint font-header home-text'>{nameContent}</p>
+      <p id="third" className='text-green font-header home-text'>{thirdContent}</p>
+      <p id="fourth" className='text-green font-header home-text'>{fourthContent}</p>
     </div>
   );
 }

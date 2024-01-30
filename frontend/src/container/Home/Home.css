@@ -1,0 +1,8 @@
+.home-text {
+    text-wrap: nowrap;
+    overflow: hidden;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 7.5rem;
+    line-height: 1;
+}
